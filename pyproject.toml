@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filehop"
+version = "0.1.0"
+description = "An interactive, offline-first CLI file transfer tool."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Tanish Chahal", email = "tanishchahal5705@gmail.com" }
+]
+dependencies = [
+    "textual>=0.38.0",
+    "textual-fspicker>=0.0.3",
+    "zeroconf>=0.119.0",
+    "qrcode>=7.4.2",
+    "click>=8.1.7"
+]
+
+[project.scripts]
+filehop = "filehop.cli:main"
