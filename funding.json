@@ -1,17 +1,45 @@
 {
-  "project_name": "filehop",
-  "tagline": "Instantly zap files across your local network.",
-  "description": "An interactive, offline-first CLI file transfer tool that uses a Textual TUI for visual file picking, Zeroconf for local device discovery, and QR codes for instant mobile downloads without needing a receiver app.",
-  "repository": "https://github.com/JugaaduTanish/filehop",
-  "funding_plans": [
-    {
-      "amount": "75000 INR",
-      "type": "One-time",
-      "description": "2-month fellowship stipend to fund the engineering time required to build the core architecture, Textual TUI, Zeroconf integration, and the v1.0 PyPI release.",
-      "milestones": [
-        "Milestone 1 (Month 1): Core Foundation - Implement textual-fspicker TUI, local HTTP server logic, and CLI QR generator for terminal-to-phone transfers.",
-        "Milestone 2 (Month 2): Ecosystem - Integrate Zeroconf (mDNS) for PC-to-PC discovery, update TUI for network targets, and publish the v1.0 containerized release to PyPI."
-      ]
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Tanish Chahal",
+    "email": "tanishchahal5705@gmail.com",
+    "description": "Developer focused on building open-source developer tools and backend infrastructure.",
+    "webpageUrl": {
+      "url": "https://github.com/TanishChahal"
     }
-  ]
+  },
+  "projects": [
+    {
+      "guid": "filehop-cli",
+      "name": "filehop",
+      "description": "An interactive, offline-first CLI file transfer tool that uses a Textual TUI for visual file picking, Zeroconf for local device discovery, and QR codes for instant mobile downloads without needing a receiver app.",
+      "repositoryUrl": {
+        "url": "https://github.com/TanishChahal/filehop"
+      },
+      "tags": ["developer-tools", "python", "cli"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "fellowship-channel",
+        "type": "bank",
+        "address": "Bank details will be provided to the foundation upon fellowship approval.",
+        "description": "Direct bank transfer for fellowship disbursement."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "filehop-fellowship",
+        "status": "active",
+        "name": "filehop 2-Month Fellowship Stipend",
+        "description": "Milestone 1: Core Foundation (TUI, HTTP server logic, and CLI QR generator). Milestone 2: Ecosystem (Zeroconf mDNS discovery, dynamic network UI, and PyPI release).",
+        "amount": 75000,
+        "currency": "INR"
+      }
+    ]
+  }
 }
