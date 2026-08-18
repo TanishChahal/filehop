@@ -1,0 +1,1 @@
+An interactive, offline-first CLI file transfer tool that uses a Textual TUI for visual file picking, Zeroconf for local device discovery, and QR codes for instant mobile downloads without needing a receiver app.
