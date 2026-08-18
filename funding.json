@@ -1,0 +1,17 @@
+{
+  "project_name": "filehop",
+  "tagline": "Instantly zap files across your local network.",
+  "description": "An interactive, offline-first CLI file transfer tool that uses a Textual TUI for visual file picking, Zeroconf for local device discovery, and QR codes for instant mobile downloads without needing a receiver app.",
+  "repository": "https://github.com/JugaaduTanish/filehop",
+  "funding_plans": [
+    {
+      "amount": "75000 INR",
+      "type": "One-time",
+      "description": "2-month fellowship stipend to fund the engineering time required to build the core architecture, Textual TUI, Zeroconf integration, and the v1.0 PyPI release.",
+      "milestones": [
+        "Milestone 1 (Month 1): Core Foundation - Implement textual-fspicker TUI, local HTTP server logic, and CLI QR generator for terminal-to-phone transfers.",
+        "Milestone 2 (Month 2): Ecosystem - Integrate Zeroconf (mDNS) for PC-to-PC discovery, update TUI for network targets, and publish the v1.0 containerized release to PyPI."
+      ]
+    }
+  ]
+}
