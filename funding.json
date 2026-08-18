@@ -16,10 +16,20 @@
       "guid": "filehop-cli",
       "name": "filehop",
       "description": "An interactive, offline-first CLI file transfer tool that uses a Textual TUI for visual file picking, Zeroconf for local device discovery, and QR codes for instant mobile downloads without needing a receiver app.",
+      "webpageUrl": {
+        "url": "https://github.com/TanishChahal/filehop"
+      },
       "repositoryUrl": {
         "url": "https://github.com/TanishChahal/filehop"
       },
-      "tags": ["developer-tools", "python", "cli"]
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "developer-tools",
+        "python",
+        "cli"
+      ]
     }
   ],
   "funding": {
