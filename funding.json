@@ -48,7 +48,11 @@
         "name": "filehop 2-Month Fellowship Stipend",
         "description": "Milestone 1: Core Foundation (TUI, HTTP server logic, and CLI QR generator). Milestone 2: Ecosystem (Zeroconf mDNS discovery, dynamic network UI, and PyPI release).",
         "amount": 75000,
-        "currency": "INR"
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "fellowship-channel"
+        ]
       }
     ]
   }
